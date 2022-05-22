@@ -34,7 +34,7 @@ function setUserName() {
   setUserName();
 } else {
   let storedName = localStorage.getItem('nom');
-  myHeading.textContent = 'Mozilla est cool, ' + storedName;
+  myHeading.textContent = 'Mozilla c\'est cool, ' + storedName;
 }
 
 
